@@ -37,7 +37,7 @@ Resposta2 (numero de diretórios encontrados) : find -name "pasta*" -type d | wc
 ls >> pasta2/alex1.txt
 
 8.Mostre o conteudo do arquivo ultimocomando.txt e siga as instruções dele
-
+cat ultimocomando.txt
 
 
 
