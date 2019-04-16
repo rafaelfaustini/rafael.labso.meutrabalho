@@ -29,7 +29,7 @@ cp *.txt pasta2
 
 6. A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
-Resposta1 (comando linux usado): find -name "pasta*"
+Resposta1 (comando linux usado): find -type d -name "pasta*"
 Resposta2 (numero de diretórios encontrados) : find -name "pasta*" -type d
 
 7.listar o conteúdo de seu diretório e direcionar a saída para o primeiro arquivo do item 4
