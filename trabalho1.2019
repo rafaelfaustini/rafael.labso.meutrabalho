@@ -25,7 +25,7 @@ cat > alex1.txt > alex2.txt > alex3.txt
 
 
 5. Copie os 3 arquivos criados anteriormente para a pasta2
-mv *.txt pasta2
+cp *.txt pasta2
 
 6. A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
