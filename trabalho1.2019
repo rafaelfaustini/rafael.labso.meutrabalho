@@ -31,11 +31,10 @@ cp *.txt pasta2
 diga quantos diretórios existem cujo nome começa com "pasta"? 
 Resposta1 (comando linux usado): find -name "pasta*" -type d
 Resposta2 (numero de diretórios encontrados) : 3
- find -name "pasta*" -type d | wc -l
 
 7.listar o conteúdo de seu diretório e direcionar a saída para o primeiro arquivo do item 4
 (Cole aqui o(s) comandos utilizados)
-ls >> pasta2/alex1.txt
+ls > pasta2/alex1.txt
 
 8.Mostre o conteudo do arquivo ultimocomando.txt e siga as instruções dele
 cat ultimocomando.txt
