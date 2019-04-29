@@ -13,7 +13,7 @@ Com relação aos comandos do SO Linux, responda as perguntas abaixo:
 mkdir -p {pasta1,pasta2,pasta3}
 2. Liste todo o conteúdo da pasta home e direcione a saída para um arquivo chamado access.log
 (Cole aqui o(s) comandos utilizados)
-ls ~ >> access.log
+ls ~ > access.log
 3. Qual o comando para mostrar as últimas 4 linhas do arquivo access.log?
 (Cole aqui o(s) comandos utilizados)
 tail -n 4 -v access.log
